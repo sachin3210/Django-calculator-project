@@ -49,4 +49,7 @@ def mod(request):
     k = i%j
     data = 'The modulus of  ',i,'  and  ',j,'  is:  ',k
     return HttpResponse(data)
+def floor2(request):
+    pass
+    2+3
 
